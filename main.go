@@ -1,7 +1,7 @@
 package main
 
 import (
-	"api-firebase/service"
+	"github.com/ollif14/api-firebase/service"
 )
 
 func main() {

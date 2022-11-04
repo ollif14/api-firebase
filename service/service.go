@@ -1,10 +1,10 @@
 package service
 
 import (
-	"api-firebase/models"
 	"encoding/json"
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+	"github.com/ollif14/api-firebase/models"
 	"io/ioutil"
 	"net/http"
 	"strings"
@@ -33,7 +33,7 @@ func EchoHTTPService() {
 	// e.DELETE("url", fucn())
 
 	// run actual server
-	e.Logger.Fatal(e.Start(":8999"))
+	e.Logger.Fatal(e.Start(":8080"))
 }
 
 func GetDataPHScale() echo.HandlerFunc {

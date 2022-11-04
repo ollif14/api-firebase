@@ -1,4 +1,4 @@
-module api-firebase
+module github.com/ollif14/api-firebase
 
 go 1.19
 
